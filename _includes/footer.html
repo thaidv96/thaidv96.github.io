@@ -1,5 +1,19 @@
 <footer>
   &copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}. Powered by
   <a href="http://jekyllrb.com/">Jekyll</a>. Made with
-  <i class="fa fa-coffee heart-icon"></i>
+  <i class="fa fa-coffee coffee-icon"></i>
+  <!-- Parse the Latex divs with Katex-->
+<script type="text/javascript">
+  $("script[type='math/tex']").replaceWith(
+    function () {
+      var tex = $(this).text();
+      return katex.renderToString(tex, { displayMode: false });
+    });
+
+  $("script[type='math/tex; mode=display']").replaceWith(
+    function () {
+      var tex = $(this).text();
+      return katex.renderToString(tex.replace(/%.*/g, ''), { displayMode: true });
+    });
+</script>
 </footer>

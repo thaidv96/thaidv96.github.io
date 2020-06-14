@@ -26,12 +26,15 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   enable_coderay: false
+  math_engine: mathjax
 
 #
 ###################################
 # Site Owner configuration
 ####################################
 #
+plugins:
+  - jekyll-katex
 owner:
   name: thaidv96
   avatar: avatar.jpg

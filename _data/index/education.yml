@@ -1,8 +1,10 @@
-- name: Massachusets Instutite of Technology
+- name: Hanoi University of Science
   link: http://web.mit.edu/
-  date: 2011 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
-  descr: <br> (expected graduation in 2019)
+  date: 2018 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
+  descr: <br> (expected graduation in 2020)
+  major: Data Science
 
-- name: Harvard
-  link: http://www.harvard.edu/
-  date: 2007 - 2011
+- name: Foreign Trade University
+  link: http://www.ftu.edu.vn/
+  date: 2014 - 2018
+  major: International Economics

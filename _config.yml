@@ -3,22 +3,22 @@
 # Site wide configuration
 ####################################
 #
-title: Leonids
-email:
-description: A simple and awesome blog theme powered by jekyll.
+title: thaidv96 | Data Science and Applications
+email: thaidv96@gmail.com
+description: Khoa học dữ liệu và ứng dụng.
 url: # the base hostname & protocol for your site
-keywords: ["blog", "jekyll"]
+keywords: ["blog", "data science", "computer vision", "nlp"]
 
 #
 ###################################
 # Jekyll configuration
 ####################################
 #
-timezone:          Europe/Paris
-markdown:          kramdown
-highlighter:       rouge
+timezone: Asia/Bangkok
+markdown: kramdown
+highlighter: rouge
 excerpt_separator: <!--more-->
-permalink:         /articles/:year-:month/:title
+permalink: /articles/:year-:month/:title
 
 kramdown:
   auto_ids: true
@@ -33,14 +33,14 @@ kramdown:
 ####################################
 #
 owner:
-  name: Leonids
-  avatar: leonids-logo.png
-  job: "A jekyll theme"
-  bio: "A simple and awesome blog theme powered by jekyll."
-  email:
+  name: thaidv96
+  avatar: avatar.jpg
+  job: "Data Enthusiast"
+  bio: "Great things start with small beginnings."
+  email: thaidv96@gmail.com
   disqus-shortname:
   twitter: #username
-  facebook: #username
+  facebook: thaidoan.ftu
   google:
     plus: #username
     analytics:
@@ -48,10 +48,10 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: #username
+  github: thaidv96
   gitlab: #username
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #username
+  linkedin: thaidoan96
   skype: #username
   xing: #username
   instagram: #username

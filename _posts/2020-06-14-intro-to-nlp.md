@@ -2,7 +2,7 @@
 layout: post
 title: Giới thiệu về xử lý ngôn ngữ tự nhiên
 excerpt: "Tổng quan về NLP, các ứng dụng của NLP"
-categories: [NLP,cs224n]
+categories: [NLP]
 modified: 2014-09-14
 comments: false
 ---

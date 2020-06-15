@@ -9,7 +9,7 @@ khía cạnh thái độ (phũ phàng, tôn trọng,...)
 
 Trong bài viết này, ta sẽ tìm hiểu các phương pháp để xây dựng không gian vector này và việc biểu diễn từ trong không gian vector đó."
 categories: [NLP]
-comments: false
+comments: true
 ---
 Biểu diễn từ là 1 trong những bài toán đầu tiên gặp phải của người làm NLP. 
 Trước khi đưa dữ liệu vào các mô hình học máy về NLP, việc đầu tiên ta cần làm là mã hoá các dữ liệu text này thành dữ liệu dạng số.
@@ -20,7 +20,7 @@ khía cạnh thái độ (phũ phàng, tôn trọng,...)
 Trong bài viết này, ta sẽ tìm hiểu các phương pháp để xây dựng không gian vector này và việc biểu diễn từ trong không gian vector đó.
 ## One-hot vector.
 
-Biểu diễn từ dưới dạng **one-hot vector** là phương pháp biểu diễn đơn giản nhất. Khi đó, mỗi từ sẽ được mã hoá thành 1 vector $$\|V\|$$ chiều ($$V$$ là tập từ vựng, $$\|V\|$$ là kích thước của tập từ vựng) với $$\|V\|-1$$ giá trị 0 và giá trị 1 duy nhất ở vị trí có số thứ tự trùng với vị trí của từ đó trong tập từ vựng.
+Biểu diễn từ dưới dạng **one-hot vector** là phương pháp biểu diễn đơn giản nhất. Khi đó, mỗi từ sẽ được mã hoá thành 1 vector $\|V\|$ chiều ($V$ là tập từ vựng, $\|V\|$ là kích thước của tập từ vựng) với $\|V\|-1$ giá trị 0 và giá trị 1 duy nhất ở vị trí có số thứ tự trùng với vị trí của từ đó trong tập từ vựng.
 Ta có thể nhìn trực quan như dưới đây:
 
 $$

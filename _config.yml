@@ -33,8 +33,6 @@ kramdown:
 # Site Owner configuration
 ####################################
 #
-plugins:
-  - jekyll-katex
 owner:
   name: thaidv96
   avatar: avatar.jpg
